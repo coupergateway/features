@@ -1,6 +1,6 @@
 {
     "id": "couper",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Couper (via Github Releases)",
     "documentationURL": "https://github.com/coupergateway/features/tree/main/couper",
     "description": "Couper is a lightweight API gateway designed to support developers in building and operating API-driven Web projects.",
