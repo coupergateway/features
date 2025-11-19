@@ -13,6 +13,12 @@ Couper is a lightweight API gateway designed to support developers in building a
 
 ## Options
 
-| Options Id | Description                    | Type   | Default Value | Other options |
-|------------|--------------------------------|--------|---------------|---------------|
-| version    | Select the version to install. | string | latest        | edge, 1.13    |
+| Options Id | Description | Type | Default Value |
+|-----|-----|-----|-----|
+| version | Select the version to install. | string | latest |
+
+
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/coupergateway/features/blob/main/src/couper/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
