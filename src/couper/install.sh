@@ -1,7 +1,6 @@
-
 set -e
 
-. ./library_scripts.sh
+. "$(dirname "$0")/library_scripts.sh"
 
 # nanolayer is a cli utility which keeps container layers as small as possible
 # source code: https://github.com/devcontainers-extra/nanolayer
@@ -14,6 +13,6 @@ $nanolayer_location \
     install \
     devcontainer-feature \
     "ghcr.io/devcontainers-extra/features/gh-release:1.0.26" \
-    --option repo='coupergateway/couper' --option binaryNames='couper' --option version="$VERSION"'
+    --option repo='coupergateway/couper' --option binaryNames='couper' --option version="$VERSION"
 
 echo 'Done!'
