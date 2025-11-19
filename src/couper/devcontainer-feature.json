@@ -1,0 +1,21 @@
+{
+    "id": "couper",
+    "version": "1.0.0",
+    "name": "Couper (via Github Releases)",
+    "documentationURL": "https://github.com/coupergateway/features/tree/main/couper",
+    "description": "Couper is a lightweight API gateway designed to support developers in building and operating API-driven Web projects.",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the version to install.",
+            "proposals": [
+                "latest",
+                "edge"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-extra/features/gh-release"
+    ]
+}
